@@ -44,13 +44,22 @@
 .submit_btn{
     border-radius: 0.3rem;
     padding: 5px 30px;
-    background-color: white;
+}
+.last_tr{
+    background-color: #414141;
 }
 .tr_td_span{
+    display: flex;
+    justify-content: space-between;
     margin: 0 20px;
     color: black;
     background-color: white;
 }
 .tr{
     border-bottom: 1px solid black;
+}
+.td_text{
+    display: inline;
+    background-color: white;
+    margin: 0px 10px;
 }

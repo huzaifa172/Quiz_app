@@ -9,50 +9,60 @@
 </head>
 <body>
 
-<div class="main_div_container">
+
+    <div class="main_div_container">
     <table class="table_main_container" >
-        <th class="tab_header"><span class="tab_header_span"><p style="color: black; background-color: white; font-size: 18px;">1) which of the following is clint site language</p></span></th>
+        <th class="tab_header"><span class="tab_header_span"><p id="questionsBox" style="color: black; background-color: white; font-size: 18px;">1) which of the following is clint site language</p></span></th>
+        
         <tr class="tr">
             <td class="td_table_quiz">
-                <span class="tr_td_span"><p style="display: inline; background-color: white;" class="tab_list_order">1</p> JAVA</span>
+                <span class="tr_td_span">
+                    <p class="td_text">(a)   JAVA</p>
+                    <input class="options" type="radio" name="options" value="a">
+                </span>
             </td>
         </tr>
+        
         <tr class="tr">
             <td class="td_table_quiz">
-                <span  class="tr_td_span"><p style="display: inline; background-color: white;" class="tab_list_order">2</p>PYTHON</span>
+                <span  class="tr_td_span">
+                    <p class="td_text">(b)   JAVASCRIPT</p>
+                    <input  class="options"  type="radio" name="options" value="b">
+                </span>
             </td>
         </tr>
+        
         <tr>
             <td class="td_table_quiz">
-                <span  class="tr_td_span"><p style="display: inline; background-color: white;" class="tab_list_order">3</p>C++</span>
+                <span  class="tr_td_span">
+                    <p class="td_text">(c)   PYTHON</p>
+                    <input class="options"  type="radio" name="options" value="c">
+                </span>
             </td>
         </tr>
+        
         <tr>
             <td class="td_table_quiz">
-                <span  class="tr_td_span"><p style="display: inline; background-color: white;" class="tab_list_order">4</p>JAVASCRIPT</span>
+                <span  class="tr_td_span">
+                    <p class="td_text">(d)   C++</p>
+                    <input class="options"  type="radio" name="options" value="d">
+                </span>
             </td>
         </tr>
-        <tr>
+        
+        <tr class="last_tr">
             <td class="td_table_quiz last_submit_tr">
-                <button class="submit_btn">Submit</button>
+                <button class="submit_btn" onclick="next()">Submit</button>
             </td>
         </tr>
     
     </table>
+
 </div>
 
 
 
-    <!-- <div class="main_container">huzaif
-        <div class="main_contianer_child first_child_mainContainer" ><h3 class="first_main_heading">1) which of the following is clint site language</h3></div>
-        <div class="main_contianer_child" ><i class="fa-solid fa-circle-chevron-right"></i><span>JAVA</span></div>
-        <div class="main_contianer_child" ><i class="fa-solid fa-circle-chevron-right"></i><span>JAVASCRIPT</span></div>
-        <div class="main_contianer_child" ><i class="fa-solid fa-circle-chevron-right"></i><span>PYTHON</span></div>
-        <div class="main_contianer_child" ><i class="fa-solid fa-circle-chevron-right"></i><span>C++</span></div>
-        <div class="main_contianer_child last_child_mainContainer" ></div>
-    </div> -->
-
-    <!-- javascript links -->
+     <!-- javascript links -->
     <script src="./main.js"></script>
 </body>
 </html>
